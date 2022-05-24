@@ -20,17 +20,18 @@ $m = new Mustache_Engine(array(
   
   <title>Acteurs</title>
   
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/materialize-css/css/materialize.min.css">
   <link rel="stylesheet" href="css/style.css">
   
 </head>
 <body>
-  <?php 
-  foreach($tabActeurs as $acteur){
-    echo $m->render('acteur_liste', $acteur);
-  }
+  <ul>
+    <?php 
+    foreach($tabActeurs as $acteur){
+      echo $m->render('acteur_liste', $acteur);
+    }
     ?>
-
+  </ul>
   
   <?php 
   include("footer.php");

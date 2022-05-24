@@ -1,20 +1,8 @@
 {
   "name": "Frontend",
   "version": "1.0.0",
-  "main": "preprocessor/gulpfile.js",
-  "scripts": {
-    "start": "gulp start",
-    "clean": "gulp clean"
-  },
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2",
-    "sass": "^1.49.7",
+    "npm-sass": "^3.1.0",
     "materialize-css": "^1.0.0"
   },
   "browserslist": [
