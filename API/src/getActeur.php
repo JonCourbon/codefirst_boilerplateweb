@@ -10,7 +10,7 @@ if(!isset($_GET["id"])){
 else {
   $id=$_GET["id"];
   $acteur=lireInfoActeur($id);
-  if(count($acteur)==0){
+  if(empty($acteur)){
     $donnees["status"]="erreur";
     $donnees["message"]="aucun acteur avec cet id";
   }

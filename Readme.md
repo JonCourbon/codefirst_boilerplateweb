@@ -28,10 +28,27 @@ Site dynamique (PHP) et intéractif (Js) avec compilation SCSS-> CSS et minifica
 1. Mettre à jour le fichier de configuration pour l'accès au SGBDR config/config.php (nom de la base, hote, mot de passe)
 
 
-#### Compilation et copies
+#### Compilation et copies (CI)
 > cp -R src/* dist/
 > cp -R public/* dist/
-> cp -R config/* dist/
+> cp -R config/ dist/
 > mkdir dist/lib/materialize-css
 > cp -R node_modules/materialize-css/dist/* dist/lib/materialize-css
 > npm-sass ./assets/scss/style.scss > ./dist/css/style.css
+
+
+## API
+=> Dossier API
+
+### Installation
+
+#### Installation des dépendances
+> npm install
+> composer update
+
+#### Configuration
+1. Mettre à jour le fichier de configuration pour l'accès au SGBDR config/config.php (nom de la base, hote, mot de passe)
+
+#### Compilation et copies (CI)
+> cp -R src/* dist/
+> cp -R config/ dist/

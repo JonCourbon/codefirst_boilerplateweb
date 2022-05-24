@@ -1,3 +1,6 @@
 /Frontend/node_modules/*
 /Frontend/vendor/*
 /Frontend/dist/*
+/API/node_modules/*
+/API/vendor/*
+/API/dist/*

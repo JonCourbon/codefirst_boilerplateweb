@@ -26,7 +26,7 @@ $m = new Mustache_Engine(array(
 </head>
 <body>
   
-  <img src="images/logo.jpg" alt="logo"></img>
+  <img src="images/logo.jpg" alt="logo"/><br/>
   
   <?php
   if($nbActeurs==0):
