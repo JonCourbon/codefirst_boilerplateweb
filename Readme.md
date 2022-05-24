@@ -31,6 +31,7 @@ Site dynamique (PHP) et intéractif (Js) avec compilation SCSS-> CSS et minifica
 #### Compilation et copies
 > cp -R src/* dist/
 > cp -R public/* dist/
+> cp -R config/* dist/
 > mkdir dist/lib/materialize-css
 > cp -R node_modules/materialize-css/dist/* dist/lib/materialize-css
 > npm-sass ./assets/scss/style.scss > ./dist/css/style.css
