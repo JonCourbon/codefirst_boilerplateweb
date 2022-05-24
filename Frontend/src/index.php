@@ -23,6 +23,11 @@ $m = new Mustache_Engine(array(
   <link rel="stylesheet" href="lib/materialize-css/css/materialize.min.css">
   <link rel="stylesheet" href="css/style.css">
   
+  <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+  
 </head>
 <body>
   
@@ -49,5 +54,7 @@ $m = new Mustache_Engine(array(
   <?php 
   include("views/partials/footer.php");
   ?>
+  
+  <script src="js/script.js"></script>
 </body>
 </html>
