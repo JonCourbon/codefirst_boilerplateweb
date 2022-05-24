@@ -26,6 +26,8 @@ $m = new Mustache_Engine(array(
 </head>
 <body>
   
+  <img src="images/logo.jpg" alt="logo"></img>
+  
   <?php
   if($nbActeurs==0):
     echo "Il n'y a aucun acteur dans la base de données";
